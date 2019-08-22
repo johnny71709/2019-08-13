@@ -11,7 +11,7 @@ body {
 }
 
 #banner {
-    background-image: url(imgs/banner.jpg);
+    background-image: url(images/03_Banner.jpg);
     background-size: 100vw;
     /* bgr 背景圖片重複 */
     background-repeat: no-repeat;

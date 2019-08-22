@@ -1,0 +1,18 @@
+mixin title(eng, chi)
+    div(class="title-box")
+        h2(class="title")=eng
+        h1=chi
+        img(src="images/line.png", alt="線條")
+
+
+
+<!DOCTYPE html>
+html(lang="zh")
+    head
+        meta(charset="UTF-8")
+        title 狸小路 | 首頁
+        link(rel="stylesheet", href="style.css")
+    
+    body
+          include nav.pug
+          include footer.pug
